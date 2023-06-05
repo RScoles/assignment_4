@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.launchcode.techjobs.persistent.TestTaskThree" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-06-05T22:40:37" hostname="ryans-MacBook-Air.local" time="0.011">
+  <properties/>
+  <testcase name="testHomeControllerFetchesEmployers(EmployerRepository, SkillRepository)" classname="org.launchcode.techjobs.persistent.TestTaskThree" time="0.005"/>
+  <testcase name="testJobFieldIsProperlyDefined()" classname="org.launchcode.techjobs.persistent.TestTaskThree" time="0.001"/>
+  <testcase name="testSqlQuery()" classname="org.launchcode.techjobs.persistent.TestTaskThree" time="0.0"/>
+  <testcase name="testJobExtendsAbstractEntity()" classname="org.launchcode.techjobs.persistent.TestTaskThree" time="0.001"/>
+  <testcase name="testEmployerField()" classname="org.launchcode.techjobs.persistent.TestTaskThree" time="0.001"/>
+  <testcase name="testHomeControllerUsesEmployerRepository()" classname="org.launchcode.techjobs.persistent.TestTaskThree" time="0.0"/>
+  <testcase name="testJobsHasCorrectPersistenceAnnotations()" classname="org.launchcode.techjobs.persistent.TestTaskThree" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.launchcode.techjobs.persistent.TestTaskFour" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-06-05T22:40:36" hostname="ryans-MacBook-Air.local" time="0.26">
+  <properties/>
+  <testcase name="testSkillJobsFieldHasCorrectType()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.002"/>
+  <testcase name="testSkillClassHasJobsField()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.0"/>
+  <testcase name="testJobSkillsHasCorrectTypeAndAnnotation()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.003"/>
+  <testcase name="testListControllerHasAutowiredRepositories()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.002"/>
+  <testcase name="testListControllerListMethodSetsFormFieldData(Model, SkillRepository, EmployerRepository)" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.111"/>
+  <testcase name="testSqlQuery()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.001"/>
+  <testcase name="testProcessAddJobFormHandlesSkillsProperly(SkillRepository, EmployerRepository, JobRepository, Job, Errors)" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.138"/>
+  <testcase name="testSkillJobsFieldHasCorrectAnnotation()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.001"/>
+  <testcase name="testHomeControllerHasSkillRepository()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.0"/>
+  <testcase name="testJobSkillsRefactoring()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
