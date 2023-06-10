@@ -5,24 +5,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Job extends AbstractEntity{
+public class Job extends AbstractEntity {
 
     @ManyToOne
     private Employer employer;
     @ManyToMany
     private List<Skill> skills = new ArrayList<>();
 
-    public Job () {
+    public Job() {
     }
 
-    public Job(Employer anEmployer, List<Skill> skills) {
+    public Job(Employer anEmployer, List<Skill> theseSkills) {
         super();
         this.employer = anEmployer;
-        this.skills = skills;
+        this.skills = theseSkills;
     }
 
     // Getters and setters.
-
 
 
     public Employer getEmployer() {
@@ -40,4 +39,6 @@ public class Job extends AbstractEntity{
     public void setSkills(List<Skill> skills) {
         this.skills = skills;
     }
+
+
 }
